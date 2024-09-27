@@ -1,7 +1,7 @@
 body 
 {
     background-color: white;
-    font-family: Helvetica Neue, sans-serif;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,7 @@ body
 header 
 {
     background-color: black;
+    font-family: andale mono, monospace;
     color: rgb(51, 0, 255);
     padding: 20px;
 }
@@ -16,7 +17,8 @@ header
 section
 {
     background: black;
-    color: rgb(51, 0, 255);
+    color: white;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -45,6 +47,7 @@ li
 footer
 {
     background-color: black;
-    color: white;
+    font-family: andale mono, monospace;
+    color: rgb(51, 0, 255);
     padding: 10px 20px;
 }
