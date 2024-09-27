@@ -9,16 +9,16 @@ body
 
 header 
 {
-    background-color: rgb(51, 0, 255);
-    color: black;
+    background-color: black;
+    color: rgb(51, 0, 255);
     font-family: monaco,Consolas,Lucida Console,monospace;
-    padding: 20px;
+    padding: 28px;
 }
 
 section
 {
-    background-color: #121212;
-    color: rgb(51, 0, 255);
+    background-color: rgb(51, 0, 255);
+    color: black;
     font-family: monaco,Consolas,Lucida Console,monospace;
     display: flex;
     flex-direction: row;
@@ -27,14 +27,14 @@ section
 
 div
 {
-    background-color: rgb(51, 0, 255);
-    color: white;
+    background-color: black;
+    color: rgb(51, 0, 255);
     font-family: monaco,Consolas,Lucida Console,monospace;
     margin: auto;
     width: fit-content;
     padding: 5px 10px;
-    border-top: 3px solid rgb(51, 0, 255);
-    border-left: 3px solid rgb(51, 0, 255);
+    border-top: 3px solid black;
+    border-left: 3px solid black;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -60,15 +60,15 @@ li
 
 footer
 {
-    background-color: rgb(51, 0, 255);
-    color: black;
+    background-color: black;
+    color: rgb(51, 0, 255);
     font-family: monaco,Consolas,Lucida Console,monospace;
-    padding: 10px 20px;
+    padding: 28px;
 }
 
 header nav ul li a 
 {
-    color: black;
+    color: rgb(51, 0, 255);
     font-family: monaco,Consolas,Lucida Console,monospace;
     text-decoration: none;
     transition: color 0.3s ease, text-decoration 0.3s ease;
@@ -77,19 +77,5 @@ header nav ul li a
 header nav ul li a:hover 
 {
     color: white;
-    text-decoration: underline;
-}
-
-body section div a
-{
-    color: white;
-    font-family: monaco,Consolas,Lucida Console,monospace;
-    text-decoration: none;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-
-body section div a:hover 
-{
-    color: rgb(51, 0, 255);
     text-decoration: underline;
 }
