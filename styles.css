@@ -1,6 +1,6 @@
 body 
 {
-    background-color: #f0f0f0;
+    background-color: white;
     font-family: Helvetica Neue, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,13 +9,14 @@ body
 header 
 {
     background-color: black;
+    color: rgb(51, 0, 255);
     padding: 20px;
 }
 
 section
 {
-    background: white;
-    color: gray;
+    background: black;
+    color: rgb(51, 0, 255);
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -44,5 +45,6 @@ li
 footer
 {
     background-color: black;
+    color: white;
     padding: 10px 20px;
 }
