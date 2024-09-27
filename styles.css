@@ -10,7 +10,7 @@ body
 header 
 {
     background-color: rgb(51, 0, 255);
-    color: #121212;
+    color: black;
     font-family: monaco,Consolas,Lucida Console,monospace;
     padding: 20px;
 }
@@ -31,7 +31,14 @@ div
     color: white;
     font-family: monaco,Consolas,Lucida Console,monospace;
     margin: auto;
-    width: 100px;
+    width: fit-content;
+    padding: 5px 10px;
+    border-top: 3px solid rgb(51, 0, 255);
+    border-left: 3px solid rgb(51, 0, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 ul
@@ -54,7 +61,35 @@ li
 footer
 {
     background-color: rgb(51, 0, 255);
-    color: #121212;
+    color: black;
     font-family: monaco,Consolas,Lucida Console,monospace;
     padding: 10px 20px;
+}
+
+header nav ul li a 
+{
+    color: black;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+header nav ul li a:hover 
+{
+    color: white;
+    text-decoration: underline;
+}
+
+body section div a
+{
+    color: white;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+body section div a:hover 
+{
+    color: rgb(51, 0, 255);
+    text-decoration: underline;
 }
