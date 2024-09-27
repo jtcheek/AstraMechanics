@@ -1,6 +1,7 @@
 body 
 {
-    background-color: white;
+    background-color: #121212;
+    color: white;
     font-family: monaco,Consolas,Lucida Console,monospace;
     margin: 0;
     padding: 0;
@@ -8,46 +9,52 @@ body
 
 header 
 {
-    background-color: black;
-    font-family: andale mono, monospace;
-    color: rgb(51, 0, 255);
+    background-color: rgb(51, 0, 255);
+    color: #121212;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     padding: 20px;
 }
 
 section
 {
-    background: black;
-    color: white;
+    background-color: #121212;
+    color: rgb(51, 0, 255);
     font-family: monaco,Consolas,Lucida Console,monospace;
-    padding: 20px;
     display: flex;
     flex-direction: row;
+    padding: 20px;
 }
 
 div
 {
-    background: white;
+    background-color: rgb(51, 0, 255);
+    color: white;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     margin: auto;
     width: 100px;
 }
 
 ul
 {
+    color: rgb(51, 0, 255);
     margin: 0;
     padding: 0;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     list-style-type: none;
 }
 
 li
 {
+    color: rgb(51, 0, 255);
     display: inline-block;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     margin-right: 20px;
 }
 
 footer
 {
-    background-color: black;
-    font-family: andale mono, monospace;
-    color: rgb(51, 0, 255);
+    background-color: rgb(51, 0, 255);
+    color: #121212;
+    font-family: monaco,Consolas,Lucida Console,monospace;
     padding: 10px 20px;
 }
