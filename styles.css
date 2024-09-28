@@ -27,8 +27,8 @@ section
 
 div
 {
-    background-color: #121212;
-    color: rgb(51, 0, 255);
+    background-color: black;
+    color: white !important;
     font-family: monaco,Consolas,Lucida Console,monospace;
     margin: auto;
     width: fit-content;
